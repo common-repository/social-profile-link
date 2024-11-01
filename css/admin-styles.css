@@ -1,0 +1,18 @@
+.ap-tab-wrapper{
+	background: #fff;
+	padding:15px;
+}
+.wrap{
+	background: #fff;
+	padding:15px;
+}
+
+.ap-admin-theme-block {
+	width: 24%;
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.ap-admin-theme-block:hover {
+	background: #f3f3f3;
+}

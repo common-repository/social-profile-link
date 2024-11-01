@@ -1,0 +1,159 @@
+.apsara-social-main ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.apsara-social-main ul li{
+	border-bottom: 0px solid #ddd !important;
+	border-top: 0px solid #ddd !important;
+	padding: 0px  !important;
+/*	display: inline-block;
+width: 49% !important;*/
+}
+.apsara-social-main.horizontal  ul li{
+	display: inline-block;
+	
+}
+.apsara-social-main.horizontal .with_title.facebook, 
+.apsara-social-main.horizontal .with_title.twitter, 
+.apsara-social-main.horizontal .with_title.instagram{
+	width: 75px ;
+} 
+.apsara-social-main.horizontal .no_title.facebook, 
+.apsara-social-main.horizontal .no_title.twitter, 
+.apsara-social-main.horizontal .no_title.instagram{
+	width: 50px ;
+} 
+.apsara-social-main ul li a:hover{
+	-webkit-box-shadow: unset !important;
+	box-shadow: unset !important;
+}
+
+.apsara-social-main ul li a .fa {
+	width: 18px;
+}
+
+.vertical .apsara-social-title {
+	display: inline-block;
+	position: relative;
+	top: -22px;
+}
+
+.invisible{
+	display: none !important;
+}
+
+.facebook a:hover{
+	color: #3b5999 !important;
+}
+
+.twitter a:hover{
+	color: #55acee !important;
+}
+
+.instagram a:hover{
+	color: #e4405f !important;
+}
+
+.pinterest a:hover{
+	color: #bd081c !important;
+}
+
+.horizontal .fb-icon-h {
+	width: 50px;
+	height: 50px;
+	background-position: -12px -36px;
+	background-size: 281px 281px;
+}
+.fb-icon-v {
+	width: 50px;
+	height: 50px;
+	background-position: -12px -36px;
+	background-size: 281px 281px;
+	display: inline-block;
+}
+
+.horizontal .tw-icon-h {
+	width: 50px;
+	height: 50px;
+	background-position: -63px -37px;
+	background-size: 281px 281px;
+}
+.tw-icon-v {
+	width: 50px;
+	height: 50px;
+	background-position: -64px -37px;
+	background-size: 281px 281px;
+	display: inline-block;
+}
+
+.horizontal .insta-icon-h {
+	width: 50px;
+	height: 50px;
+	background-position: -114px -37px;
+	background-size: 281px 281px;
+}
+.insta-icon-v {
+	width: 50px;
+	height: 50px;
+	background-position: -115px -37px;
+	background-size: 281px 281px;
+	display: inline-block;
+}
+
+.horizontal .pint-icon-h {
+	width: 50px;
+	height: 50px;
+	background-position: -167px -37px;
+	background-size: 281px 281px;
+}
+.pint-icon-v {
+	width: 50px;
+	height: 50px;
+	background-position: -167px -37px;
+	background-size: 281px 281px;
+	display: inline-block;
+}
+
+.fb-icon-v:hover, .fb-icon-h:hover, 
+.tw-icon-v:hover, .tw-icon-h:hover, 
+.insta-icon-v:hover, .insta-icon-h:hover,
+.pint-icon-v:hover, .pint-icon-h:hover
+{
+	filter: gray;
+	-webkit-filter: grayscale(100%);
+}
+
+.apsara-social-main.horizontal .with_title.facebook.col2,
+.apsara-social-main.horizontal .with_title.twitter.col2,
+.apsara-social-main.horizontal .with_title.instagram.col2,
+.apsara-social-main.horizontal .with_title.pinterest.col2
+{
+	width: 45%;
+}
+
+.apsara-social-main.horizontal .no_title.facebook.col2,
+.apsara-social-main.horizontal .no_title.twitter.col2,
+.apsara-social-main.horizontal .no_title.instagram.col2,
+.apsara-social-main.horizontal .no_title.pinterest.col2
+{
+	width: 49%;
+}
+
+.apsara-social-main.vertical .with_title.facebook.col2,
+.apsara-social-main.vertical .with_title.twitter.col2,
+.apsara-social-main.vertical .with_title.instagram.col2,
+.apsara-social-main.vertical .with_title.pinterest.col2
+{
+	width: 49%;
+	display: inline-block;
+}
+
+.apsara-social-main.vertical .no_title.facebook.col2,
+.apsara-social-main.vertical .no_title.twitter.col2,
+.apsara-social-main.vertical .no_title.instagram.col2,
+.apsara-social-main.vertical .no_title.pinterest.col2
+{
+	width: 49%;
+	display: inline-block;
+}
